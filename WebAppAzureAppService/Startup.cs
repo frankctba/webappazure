@@ -45,6 +45,7 @@ namespace WebAppAzureAppService
 
             app.UseRouting();
 
+            // test
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
